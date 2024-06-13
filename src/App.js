@@ -110,11 +110,11 @@ const Data = [
     </div>
         <div>
       <h4>
-        Start: 22 June 24
+        Start: 22 June 2024
         </h4>
 
         <h4>
-        End: 22 Nov 24
+        End: 22 Nov 2024
       </h4>
     </div>
       </header>
