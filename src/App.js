@@ -13,13 +13,13 @@ function App() {
 const Data = [
   {
     id: 1,
-    year: "Brian",
+    year: "Dad",
     goal: 30,
     progress: 1
   },
   {
     id: 2,
-    year: "Tobie",
+    year: "Mom",
     goal: 50,
     progress: 1
   },
