@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+.chart-container {
+  width: 95%;
+}
+
+Bar {
+  font-size: 3em;
+}
