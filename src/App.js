@@ -6,6 +6,7 @@ import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
 import { Container } from "react-bootstrap";
 import annotationPlugin from 'chartjs-plugin-annotation';
+import { Quotes } from './components/quotes';
 
 Chart.register(CategoryScale, annotationPlugin);
 
@@ -73,7 +74,7 @@ const Data = [
       </header>
       <h3 style={{ textAlign: "center", color: "hotpink" }}>Week 1 - Good Luck Challengers!</h3>
       <div style={{position: "relative", width: "100%"}}>
-      <iframe style={{}} src="https://giphy.com/embed/d8PjnRdlAP52F1CImb" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/amazonvideouk-hungergames-thehungergames-maytheodds-d8PjnRdlAP52F1CImb">via GIPHY</a></p>
+      <iframe src="https://giphy.com/embed/d8PjnRdlAP52F1CImb" width="480" height="269" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/amazonvideouk-hungergames-thehungergames-maytheodds-d8PjnRdlAP52F1CImb">via GIPHY</a></p>
       </div>
       <Bar
         data={chartData}
@@ -119,6 +120,7 @@ const Data = [
       <h4>
         Start: 22 June 2024 - End: 22 Nov 2024
       </h4>
+      <Quotes />
     </div>
   {/* FAQ */}
   <Container className='p-3'>
