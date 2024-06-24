@@ -7,14 +7,14 @@ export const Quotes = () => {
   const getQuote = async () => {
     try {
       let response = await axios.get(
-        "https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json"
+        "https://zenquotes.io/api/today/"
       );
       const quoteData = response.data;
       console.log(quoteData)
-      setQuote(quoteData.quoteText);
+      setQuote(quoteData.q);
 
       // Store the quote and the date in local storage
-      localStorage.setItem("quote", quoteData.quoteText);
+      localStorage.setItem("quote", quoteData.q);
       localStorage.setItem("quoteDate", new Date().toLocaleDateString());
     } catch (err) {
       console.log(err);
