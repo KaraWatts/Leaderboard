@@ -6,7 +6,7 @@ import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
 import { Container } from "react-bootstrap";
 import annotationPlugin from 'chartjs-plugin-annotation';
-import { Quotes } from './components/quotes';
+// import { Quotes } from './components/quotes';
 
 Chart.register(CategoryScale, annotationPlugin);
 
@@ -120,7 +120,7 @@ const Data = [
       <h4>
         Start: 22 June 2024 - End: 22 Nov 2024
       </h4>
-      <Quotes />
+      {/* <Quotes /> */}
     </div>
   {/* FAQ */}
   <Container className='p-3'>
