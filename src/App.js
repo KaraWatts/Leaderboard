@@ -4,6 +4,7 @@ import './App.css';
 import { Bar } from "react-chartjs-2";
 import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
+import { Container } from "react-bootstrap";
 import annotationPlugin from 'chartjs-plugin-annotation';
 
 Chart.register(CategoryScale, annotationPlugin);
@@ -65,9 +66,15 @@ const Data = [
 
   return (
     <div className="App">
-      <header className="App-header">
+      <Container className="body">
       <div className="chart-container">
-      <h2 style={{ textAlign: "center" }}>Challenge Leaderboard</h2>
+      <header className='p-3'>
+      <h2 style={{ textAlign: "center", paddingBottom: "5vh" }}>Challenge Leaderboard</h2>
+      </header>
+      <h3 style={{ textAlign: "center", color: "hotpink" }}>Week 1 - Good Luck Challengers!</h3>
+      <div style={{position: "relative", width: "100%"}}>
+      <iframe style={{}} src="https://giphy.com/embed/d8PjnRdlAP52F1CImb" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/amazonvideouk-hungergames-thehungergames-maytheodds-d8PjnRdlAP52F1CImb">via GIPHY</a></p>
+      </div>
       <Bar
         data={chartData}
         options={{
@@ -110,15 +117,16 @@ const Data = [
     </div>
         <div>
       <h4>
-        Start: 22 June 2024
-        </h4>
-
-        <h4>
-        End: 22 Nov 2024
+        Start: 22 June 2024 - End: 22 Nov 2024
       </h4>
     </div>
-      </header>
-  
+  {/* FAQ */}
+  <Container className='p-3'>
+				<h1 style={{ textAlign: 'center', color: "skyblue"}}>FAQs</h1>
+				<h4 >How often do I report my weight?</h4>
+				<p style={{ marginTop:"1rem"}}>You will report your weight weekly every Sunday. Once all weights have been reported the leaderboard will be updated and you will receive a notification.</p>
+			</Container>
+      </Container>
     </div>
   );
 }
