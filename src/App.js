@@ -6,9 +6,10 @@ import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
 import { Container } from "react-bootstrap";
 import annotationPlugin from 'chartjs-plugin-annotation';
+import ChartDataLabels from "chartjs-plugin-datalabels";
 // import { Quotes } from './components/quotes';
 
-Chart.register(CategoryScale, annotationPlugin);
+Chart.register(CategoryScale, annotationPlugin, ChartDataLabels);
 
 function App() {
 
@@ -109,6 +110,11 @@ const Data = [
       },
     },
           plugins: {
+            datalabels: {
+           anchor: 'end', // Position labels at the end of bars
+           align: 'left', // Align text to the left of the label
+           color: 'black', // Label text color
+         },
             title: {
               display: false
             },
@@ -117,7 +123,7 @@ const Data = [
             },
             annotation: {
            annotations: milestones,
-        },
+            },
           }
         }}
       />
