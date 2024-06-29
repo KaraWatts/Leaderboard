@@ -82,6 +82,7 @@ const Data = [
       <h3 style={{ textAlign: "center", color: "hotpink" }}>Week 2 - Good Luck Challengers!</h3>
       <div style={{position: "relative", width: "100%"}}>
       </div>
+      <div style={{ minHeight: '300px' }}>
       <Bar
         data={chartData}
         options={{
@@ -96,14 +97,14 @@ const Data = [
         max: 100,
         ticks: {
           font: {
-            size: 20 // Adjust y-axis label font size
+            size: 16 // Adjust y-axis label font size
           }
         },
       },
       x: {
         ticks: {
           font: {
-            size: 20 // Adjust y-axis label font size
+            size: 16 // Adjust y-axis label font size
           }
         },
       },
@@ -146,6 +147,7 @@ const Data = [
           }
         }}
       />
+      </div>
     </div>
         <div>
       <h4>
