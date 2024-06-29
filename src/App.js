@@ -114,6 +114,9 @@ const Data = [
            anchor: 'end', // Position labels at the end of bars
            align: 'left', // Align text to the left of the label
            color: 'black', // Label text color
+           font: {
+          size: 16, // Set the desired font size here
+        },
          },
             title: {
               display: false
