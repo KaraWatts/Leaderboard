@@ -115,6 +115,7 @@ const Data = [
            anchor: 'end', // Position labels at the end of bars
            align: 'left', // Align text to the left of the label
            color: 'white', // Label text color
+           formatter: (val, context) => (`${val}%`), // displays as percentage
            font: {
           size: 16, // Set the desired font size here
         },
@@ -132,7 +133,7 @@ const Data = [
           family: 'tahoma',
           weight: 'normal',
           style: 'italic'
-        },
+        },},
             legend: {
               display: false
             },
