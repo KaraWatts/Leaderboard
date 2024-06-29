@@ -94,7 +94,6 @@ const Data = [
           },
           scales: {
       y: {
-        color: 'white',
         max: 100,
         ticks: {
           font: {
@@ -103,7 +102,6 @@ const Data = [
         },
       },
       x: {
-        color: 'white',
         ticks: {
           font: {
             size: 20 // Adjust y-axis label font size
@@ -146,9 +144,9 @@ const Data = [
             annotation: {
            annotations: milestones,
             },
-          },
           }
         }}
+        }
       />
     </div>
         <div>
