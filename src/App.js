@@ -137,7 +137,7 @@ const Data = [
           family: 'tahoma',
           weight: 'normal',
           style: 'italic'
-        },
+        },},
             legend: {
               display: false
             },
@@ -146,7 +146,6 @@ const Data = [
             },
           }
         }}
-        }
       />
     </div>
         <div>
