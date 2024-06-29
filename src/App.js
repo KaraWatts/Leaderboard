@@ -85,7 +85,9 @@ const Data = [
       <div style={{ minHeight: '300px' }}>
       <Bar
         data={chartData}
+        height={300} 
         options={{
+          maintainAspectRatio: false,
           indexAxis: 'y',
           elements: {
             bar: {
