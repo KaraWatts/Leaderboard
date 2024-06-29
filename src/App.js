@@ -79,9 +79,8 @@ const Data = [
       <header className='p-3'>
       <h2 style={{ textAlign: "center", paddingBottom: "5vh" }}>Challenge Leaderboard</h2>
       </header>
-      <h3 style={{ textAlign: "center", color: "hotpink" }}>Week 1 - Good Luck Challengers!</h3>
+      <h3 style={{ textAlign: "center", color: "hotpink" }}>Week 2 - Good Luck Challengers!</h3>
       <div style={{position: "relative", width: "100%"}}>
-      <iframe src="https://giphy.com/embed/d8PjnRdlAP52F1CImb" width="480" height="269" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p></p>
       </div>
       <Bar
         data={chartData}
