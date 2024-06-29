@@ -81,7 +81,7 @@ const Data = [
       </header>
       <h3 style={{ textAlign: "center", color: "hotpink" }}>Week 1 - Good Luck Challengers!</h3>
       <div style={{position: "relative", width: "100%"}}>
-      <iframe src="https://giphy.com/embed/d8PjnRdlAP52F1CImb" width="480" height="269" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/amazonvideouk-hungergames-thehungergames-maytheodds-d8PjnRdlAP52F1CImb">via GIPHY</a></p>
+      <iframe src="https://giphy.com/embed/d8PjnRdlAP52F1CImb" width="480" height="269" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p></p>
       </div>
       <Bar
         data={chartData}
@@ -122,18 +122,22 @@ const Data = [
          },
             title: {
         display: true,
+        color: 'white',
+        font: {
+          size: 24, // Set the desired font size here
+        },
         text: 'Percentage Toward Goal',
       },
       subtitle: {
         display: true,
         text: 'First to each 10% milestone wins $ - first to 100% wins $$$',
-        color: 'blue',
+        color: 'hotpink',
         font: {
-          size: 12,
+          size: 20,
           family: 'tahoma',
           weight: 'normal',
           style: 'italic'
-        },},
+        },
             legend: {
               display: false
             },
