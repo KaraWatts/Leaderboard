@@ -110,6 +110,7 @@ const Data = [
       },
     },
           plugins: {
+
             datalabels: {
            anchor: 'end', // Position labels at the end of bars
            align: 'left', // Align text to the left of the label
@@ -119,8 +120,19 @@ const Data = [
         },
          },
             title: {
-              display: false
-            },
+        display: true,
+        text: 'Percentage Toward Goal',
+      },
+      subtitle: {
+        display: true,
+        text: 'First to each 10% milestone wins $ - first to 100% wins $$$',
+        color: 'blue',
+        font: {
+          size: 12,
+          family: 'tahoma',
+          weight: 'normal',
+          style: 'italic'
+        },
             legend: {
               display: false
             },
