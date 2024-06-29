@@ -17,19 +17,25 @@ const Data = [
     id: 1,
     year: "Dad",
     goal: 30,
-    progress: 1
+    start: 229.2,
+    last: 227.6,
+    progress: 5.3,
   },
   {
     id: 2,
     year: "Mom",
     goal: 50,
-    progress: 1
+    start: 229.2,
+    last: 227.6,
+    progress: 0,
   },
   {
     id: 3,
     year: "John",
     goal: 50,
-    progress: 1
+    start: 288.6,
+    last: 292.6,
+    progress: -8,
   }
 ]
 
