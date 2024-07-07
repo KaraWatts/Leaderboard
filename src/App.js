@@ -19,24 +19,24 @@ const Data = [
     year: "Dad",
     goal: 30,
     start: 229.2,
-    last: 227.6,
-    progress: 5.3,
+    last: 231.9,
+    progress: -9,
   },
   {
     id: 2,
     year: "Mom",
-    goal: 50,
-    start: 229.2,
-    last: 227.6,
-    progress: 0,
+    goal: 31,
+    start: 211,
+    last: 209,
+    progress: 6.5,
   },
   {
     id: 3,
     year: "John",
     goal: 50,
     start: 288.6,
-    last: 292.6,
-    progress: -8,
+    last: 294.4,
+    progress: -11.6,
   }
 ]
 
@@ -79,7 +79,7 @@ const Data = [
       <header className='p-3'>
       <h2 style={{ textAlign: "center", paddingBottom: "5vh" }}>Challenge Leaderboard</h2>
       </header>
-      <h3 style={{ textAlign: "center", color: "hotpink" }}>Week 2 - Good Luck Challengers!</h3>
+      <h3 style={{ textAlign: "center", color: "hotpink" }}>Week 3 - Good Luck Challengers!</h3>
       <div style={{position: "relative", width: "100%"}}>
       </div>
       <div style={{ minHeight: '300px' }}>
