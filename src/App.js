@@ -7,6 +7,7 @@ import { CategoryScale } from "chart.js";
 import { Container,Table } from "react-bootstrap";
 import annotationPlugin from 'chartjs-plugin-annotation';
 import ChartDataLabels from "chartjs-plugin-datalabels";
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Quotes } from './components/quotes';
 
 Chart.register(CategoryScale, annotationPlugin, ChartDataLabels);
