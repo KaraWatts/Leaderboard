@@ -78,7 +78,7 @@ const Data = [
       <Container className="body">
       <div className="chart-container">
       <header className='p-3'>
-      <h2 style={{ textAlign: "center", paddingBottom: "5vh" }}>Challenge Leaderboard</h2>
+      <h2 style={{ textAlign: "center", paddingBottom: "1vh" }}>Challenge Leaderboard</h2>
       </header>
       <h3 style={{ textAlign: "center", color: "hotpink" }}>Week 4 - So close to the first milestone!</h3>
       <div style={{position: "relative", width: "100%"}}>
