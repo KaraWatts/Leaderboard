@@ -48,7 +48,7 @@ const Data = [
         data: Data.map((data) => data.progress),
         backgroundColor: [
           "rgba(75,192,192,1)",
-          "#ecf0f1",
+          "#f25572",
           "#50AF95",
           "#f3ba2f",
           "#2a71d0"
@@ -157,7 +157,7 @@ const Data = [
       </h4>
       {/* <Quotes /> */}
     </div>
-    <Container className='p-3'>
+    <div className='p-3'>
 				<h1 style={{ textAlign: 'center', color: "limegreen"}}>FAQs</h1>
         <h4 >10% Milestone Prizes</h4>
 				<p style={{ marginTop:"1rem"}}>$10 from every challenger NOT in your household + 1 favor from every challenger IN your household</p>
@@ -178,7 +178,36 @@ const Data = [
             </tr>
           </tbody>
         </Table>
-			</Container>
+        <Table striped bordered hover>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td colSpan={2}>Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </Table>
+			</div>
   {/* FAQ */}
   <Container className='p-3'>
 				<h1 style={{ textAlign: 'center', color: "skyblue"}}>FAQs</h1>
