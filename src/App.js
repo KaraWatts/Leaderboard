@@ -4,7 +4,7 @@ import './App.css';
 import { Bar } from "react-chartjs-2";
 import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container,Table } from "react-bootstrap";
 import annotationPlugin from 'chartjs-plugin-annotation';
 import ChartDataLabels from "chartjs-plugin-datalabels";
 // import { Quotes } from './components/quotes';
@@ -184,6 +184,22 @@ const Data = [
             PCC Rifle
           </Col>
         </Row>
+        <Table striped bordered hover>
+          <tbody>
+            <tr>
+              <td>Dad</td>
+              <td>iMac Mini</td>
+            </tr>
+            <tr>
+              <td>Mom</td>
+              <td>New Wardrobe Shopping Spree</td>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>PCC Rifle</td>
+            </tr>
+          </tbody>
+        </Table>
 			</Container>
   {/* FAQ */}
   <Container className='p-3'>
