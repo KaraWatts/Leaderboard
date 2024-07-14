@@ -4,7 +4,7 @@ import './App.css';
 import { Bar } from "react-chartjs-2";
 import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import annotationPlugin from 'chartjs-plugin-annotation';
 import ChartDataLabels from "chartjs-plugin-datalabels";
 // import { Quotes } from './components/quotes';
@@ -153,13 +153,43 @@ const Data = [
     </div>
         <div>
       <h4>
-        Start: 22 June 2024 - End: 22 Nov 2024
+        Start: 22 June 2024 - End: 21 Nov 2024
       </h4>
       {/* <Quotes /> */}
     </div>
+    <Container className='p-3'>
+				<h1 style={{ textAlign: 'center', color: "limegreen"}}>FAQs</h1>
+        <h4 >10% Milestone Prizes</h4>
+				<p style={{ marginTop:"1rem"}}>$10 from every challenger NOT in your household + 1 favor from every challenger IN your household</p>
+				<h4 >GRAND PRIZES</h4>
+        <Row>
+          <Col>
+            <p style={{ marginTop:"1rem"}}>Dad</p>
+          </Col>
+          <Col>
+            <p style={{ marginTop:"1rem"}}>Mom</p>
+          </Col>
+          <Col>
+            <p style={{ marginTop:"1rem"}}>John</p>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <p style={{ marginTop:"1rem"}}>iMac mini</p>
+          </Col>
+          <Col>
+            <p style={{ marginTop:"1rem"}}>Clothes Shopping Spree</p>
+          </Col>
+          <Col>
+            <p style={{ marginTop:"1rem"}}>PCC Rifle</p>
+          </Col>
+        </Row>
+			</Container>
   {/* FAQ */}
   <Container className='p-3'>
 				<h1 style={{ textAlign: 'center', color: "skyblue"}}>FAQs</h1>
+        <h4 >How do I win?</h4>
+				<p style={{ marginTop:"1rem"}}>First and foremost, this is a race! 1st challenger to reach a 10% milestone steals the reward from everyone else. The grand prizes are won by every challenger that reaches the end (Nov 21) at or below their goal weight!</p>
 				<h4 >How often do I report my weight?</h4>
 				<p style={{ marginTop:"1rem"}}>You will report your weight weekly every Sunday. Once all weights have been reported the leaderboard will be updated and you will receive a notification.</p>
 			</Container>
