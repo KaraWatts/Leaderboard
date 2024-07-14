@@ -160,7 +160,13 @@ const Data = [
     </div>
     <div className='p-3'>
 				<h1 style={{ textAlign: 'center', color: "limegreen"}}>10% Milestone Prizes</h1>
-				<p style={{ marginTop:"1rem"}}>$10 from every challenger NOT in your household + 1 favor from every challenger IN your household</p>
+        <Table striped bordered hover>
+          <tbody>
+            <tr>
+              <td>$10 from every challenger NOT in your household + 1 favor from every challenger IN your household</td>
+            </tr>
+          </tbody>
+        </Table>
 				<h1 style={{ textAlign: 'center', color: "limegreen"}}>GRAND PRIZES</h1>
         <Table striped bordered hover>
           <tbody>
