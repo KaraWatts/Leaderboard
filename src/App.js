@@ -164,24 +164,24 @@ const Data = [
 				<h4 >GRAND PRIZES</h4>
         <Row>
           <Col>
-            <a style={{ marginTop:"1rem"}}>Dad: </p>
+            Dad
           </Col>
           <Col>
-            <a style={{ marginTop:"1rem"}}>Mom</p>
+            Mom
           </Col>
           <Col>
-            <a style={{ marginTop:"1rem"}}>John</p>
+            John
           </Col>
         </Row>
         <Row>
           <Col>
-            <a style={{ marginTop:"1rem"}}>iMac mini</p>
+            iMac mini
           </Col>
           <Col>
-            <a style={{ marginTop:"1rem"}}>Clothes Shopping Spree</p>
+            Clothes Shopping Spree
           </Col>
           <Col>
-            <a style={{ marginTop:"1rem"}}>PCC Rifle</p>
+            PCC Rifle
           </Col>
         </Row>
 			</Container>
