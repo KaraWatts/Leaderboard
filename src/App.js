@@ -17,27 +17,27 @@ function App() {
 const Data = [
   {
     id: 1,
-    year: "Dad (+0%)",
+    year: "Dad (-9.6%)",
     goal: 30,
     start: 229.2,
     last: 229.0,
-    progress: .6,
+    progress: -9,
   },
   {
     id: 2,
-    year: "Mom (+0%)",
+    year: "Mom (+3.2%)",
     goal: 31,
     start: 211,
     last: 208,
-    progress: 9.7,
+    progress: 12.9,
   },
   {
     id: 3,
-    year: "John (-1.4%)",
+    year: "John (+5.2%)",
     goal: 50,
     start: 288.6,
-    last: 293,
-    progress: -8.8,
+    last: 290.4,
+    progress: -3.6,
   }
 ]
 
@@ -80,7 +80,7 @@ const Data = [
       <header className='p-3'>
       <h2 style={{ textAlign: "center", paddingBottom: "1vh" }}>Challenge Leaderboard</h2>
       </header>
-      <h3 style={{ textAlign: "center", color: "hotpink" }}>Week 5 - So close to the first milestone!</h3>
+      <h3 style={{ textAlign: "center", color: "hotpink" }}>Week 6 - Time to pay up challengers - Mom is our 1st milestone winner!!!</h3>
       <div style={{position: "relative", width: "100%"}}>
       </div>
       <div style={{ minHeight: '300px' }}>
@@ -156,6 +156,25 @@ const Data = [
       <h4>
         Start: 22 June 2024 - End: 21 Nov 2024
       </h4>
+      <h1 style={{ textAlign: 'center', color: "limegreen"}}>Milestone Winners</h1>
+        <Table striped bordered hover>
+          <thead>
+            <tr>
+              <th scope="col">Milestone</th>
+              <th scope="col">Winner</th>
+              <th scope="col">Date</th>
+              <th scope="col">Prizes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>10%</td>
+              <td>Mom</td>
+              <td>27 July 24</td>
+              <td>$10 from John + 1 Favor from Dad</td>
+            </tr>
+          </tbody>
+        </Table>
       {/* <Quotes /> */}
     </div>
     <div className='p-3'>
