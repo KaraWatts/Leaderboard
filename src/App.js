@@ -78,10 +78,13 @@ const Data = [
       <Container className="body">
       <div className="chart-container">
       <header className='p-3'>
-      <h2 style={{ textAlign: "center", paddingBottom: "1vh" }}>Challenge Leaderboard</h2>
+      <h1 style={{ textAlign: "center", paddingBottom: "1vh" }}>Challenge Leaderboard</h1>
+      <hr />
+      <h2 style={{ textAlign: "center"}}>Week 6</h2>
       </header>
-      <h3 style={{ textAlign: "center", color: "hotpink" }}>Week 6 - Time to pay up challengers - Mom is our 1st milestone winner!!!</h3>
+      <h3 style={{ textAlign: "center", color: "hotpink" }}>Time to pay up challengers - Mom is our 1st milestone winner!!!</h3>
       <div style={{position: "relative", width: "100%"}}>
+      <hr />
       </div>
       <div style={{ minHeight: '300px' }}>
       <Bar
