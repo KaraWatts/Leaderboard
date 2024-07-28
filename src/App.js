@@ -174,7 +174,7 @@ const Data = [
               <td>10%</td>
               <td>Mom</td>
               <td>27 July 24</td>
-              <td>$10 from John + 1 Favor from Dad</td>
+              <td>$10 from John + patience while yarn shopping from Dad</td>
             </tr>
           </tbody>
         </Table>
