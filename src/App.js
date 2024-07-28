@@ -178,7 +178,7 @@ const Data = [
       {/* <Quotes /> */}
     </div>
     <div className='p-3'>
-				<h1 style={{ textAlign: 'center', color: "limegreen"}}>10% Milestone Prizes</h1>
+				<h2 style={{ textAlign: 'center', color: "limegreen"}}>10% Milestone Prizes</h1>
         <Table striped bordered hover>
           <tbody>
             <tr>
@@ -186,7 +186,7 @@ const Data = [
             </tr>
           </tbody>
         </Table>
-				<h1 style={{ textAlign: 'center', color: "limegreen"}}>GRAND PRIZES</h1>
+				<h2 style={{ textAlign: 'center', color: "limegreen"}}>GRAND PRIZES</h1>
         <Table striped bordered hover>
           <tbody>
             <tr>
