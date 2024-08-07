@@ -17,27 +17,27 @@ function App() {
 const Data = [
   {
     id: 1,
-    year: "Dad (-9.6%)",
+    year: "Dad (+2.33%)",
     goal: 30,
     start: 229.2,
-    last: 229.0,
-    progress: -9,
+    last: 231.2,
+    progress: -6.66,
   },
   {
     id: 2,
-    year: "Mom (+3.2%)",
+    year: "Mom (-1.94%)",
     goal: 31,
     start: 211,
     last: 208,
-    progress: 12.9,
+    progress: 10.96,
   },
   {
     id: 3,
-    year: "John (+5.2%)",
+    year: "John (+2.4%)",
     goal: 50,
     start: 288.6,
     last: 290.4,
-    progress: -3.6,
+    progress: -1.2,
   }
 ]
 
@@ -80,9 +80,9 @@ const Data = [
       <header className='p-3'>
       <h1 style={{ textAlign: "center", paddingBottom: "1vh" }}>Challenge Leaderboard</h1>
       <hr />
-      <h2 style={{ textAlign: "center"}}>Week 6</h2>
+      <h2 style={{ textAlign: "center"}}>Week 7</h2>
       </header>
-      <h3 style={{ textAlign: "center", color: "hotpink" }}>Time to pay up challengers - Mom is our 1st milestone winner!!!</h3>
+      <h3 style={{ textAlign: "center", color: "hotpink" }}>Slow and steady progress! </h3>
       <div style={{position: "relative", width: "100%"}}>
       <hr />
       </div>
