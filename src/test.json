@@ -3,5 +3,50 @@
     "milestone": 10,
     "winner": "Mom",
     "color": "#f25572"
-  }
+  },
+  {
+    "milestone": 20,
+    "winner": null,
+    "color": null
+  },
+  {
+    "milestone": 30,
+    "winner": null,
+    "color": null
+  },
+  {
+    "milestone": 40,
+    "winner": null,
+    "color": null
+  },
+  {
+    "milestone": 50,
+    "winner": null,
+    "color": null
+  },
+  {
+    "milestone": 60,
+    "winner": null,
+    "color": null
+  },
+  {
+    "milestone": 70,
+    "winner": null,
+    "color": null
+  },
+  {
+    "milestone": 80,
+    "winner": null,
+    "color": null
+  },
+  {
+    "milestone": 90,
+    "winner": null,
+    "color": null
+  },
+  {
+    "milestone": 100,
+    "winner": null,
+    "color": null
+  },
 ]
