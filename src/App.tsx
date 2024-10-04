@@ -117,7 +117,7 @@ function App() {
             First and foremost, this is a race! 1st name to reach a 10%
             milestone steals the reward from everyone else. The grand prizes are
             won by every name that reaches the end (Nov 21) at or below
-            their goal weight!
+            their goal weight!!
           </p>
           <h4>How often do I report my weight?</h4>
           <p style={{ marginTop: "1rem" }}>
