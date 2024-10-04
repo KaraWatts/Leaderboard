@@ -38,7 +38,7 @@ function App() {
             <h2 style={{ textAlign: "center" }}>Week 8</h2>
           </header>
           <h3 style={{ textAlign: "center", color: "#ff7eb6" }}>
-            Welcome Back names!{" "}
+            Welcome Back Challengers!{" "}
           </h3>
           <div style={{ position: "relative", width: "100%" }}>
             <hr />
