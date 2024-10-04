@@ -19,8 +19,9 @@ const ReportForm: React.FC = observer(() => {
         if (validation) {
             // Update the challenger data
             challengerStore.updateChallengerData(name, weight);
-            console.log(JSON.stringify(challengerStore.ChallengerData));
+            // Clear the form after submission
             formStore.clearForm();
+            alert('Thanks for weighing in! See you next week!');
             return;
         }
         
