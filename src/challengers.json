@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "Dad",
+      "goal": 30,
+      "start": 229.2,
+      "last": 231.2,
+      "progress": -6.66,
+      "progressChange": 2.33,
+      "color": "rgba(75,192,192,1)"
+    },
+    {
+      "id": 2,
+      "name": "Mom",
+      "goal": 31,
+      "start": 211,
+      "last": 208,
+      "progress": 10.96,
+      "progressChange": -1.94,
+      "color": "#f25572"
+    },
+    {
+      "id": 3,
+      "name": "John",
+      "goal": 50,
+      "start": 288.6,
+      "last": 290.4,
+      "progress": -1.2,
+      "progressChange": 2.4,
+      "color": "#a56eff"
+    }
+  ]
+  
