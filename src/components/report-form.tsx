@@ -3,25 +3,54 @@ import formStore from '../stores/FormStore';
 import  challengerStore  from '../stores/ChallengerStore';
 
 const ReportForm: React.FC = observer(() => {
-    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault();
         const name = formStore.selectedPerson;
         const weight = Number(formStore.weight);
+
+        // Validate form data
         if ( name === '' || weight === 0) {
             alert('Please select a name and enter a weight to submit the form')
             return;
         }
+
+
         // trigger secret key popup
         const secretKey = Number(prompt('Enter the secret key to submit the form'));
+
         // validate challenger key
         const validation = challengerStore.validateChallenger(name, secretKey);
-        console.log(validation);
+
+        const successMessages = [
+          `Way to go, ${name}! You're crushing it! Keep up the awesome progress! 💪`,
+          `Boom! ${name}, you're moving mountains (or at least scales)! 🏆 Keep pushing!`,
+          `Woohoo, ${name}! Progress looks good on you! 🎉 Keep rocking it!`
+        ]
+
+        const neutralMessages = [
+          `Way to weighing in, ${name}! You're steady on the path—let's see what next week brings! 🚀`,
+          `Thanks for checking in, ${name}! Keep the momentum—big things are on the horizon! 🌟`,
+          `Well, ${name}, not all heroes wear capes—some just weigh in. 😉 On to the next week!`
+      ];
+
+        // Randomly select message
+        const randomSuccessMessage = successMessages[Math.floor(Math.random() * successMessages.length)];
+        const randomNeutralMessage = neutralMessages[Math.floor(Math.random() * neutralMessages.length)];
+
+        // If validation is successful, update the challenger data
         if (validation) {
             // Update the challenger data
-            challengerStore.updateChallengerData(name, weight);
+            const update = await challengerStore.updateChallengerData(name, weight);
+
             // Clear the form after submission
             formStore.clearForm();
-            alert('Thanks for weighing in! See you next week!');
+
+            // Show update message
+            if (update) {
+                alert(randomSuccessMessage);
+            } else {
+                alert(randomNeutralMessage);
+            }
             return;
         }
         

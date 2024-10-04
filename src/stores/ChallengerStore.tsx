@@ -79,13 +79,12 @@ class ChallengerStore {
             challenger["progress"] = parseFloat(newProgress.toFixed(1));
             challenger["progressChange"] = parseFloat((challenger.progress - lastProgress).toFixed(1));
             challenger["last"] = weight;
-            console.log(challenger)
             try {
                 const challengerRef = ref(db, `Challengers/${challenger.id}`);
                 await update(challengerRef, challenger)
+                return newProgress > lastProgress;
             } catch (error) {
                 console.error("Error updating challenger data:", error);
-            
             }}
     }
     // validate challenger
