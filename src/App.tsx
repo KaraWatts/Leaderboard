@@ -35,10 +35,10 @@ function App() {
               Challenge Leaderboard
             </h1>
             <hr />
-            <h2 style={{ textAlign: "center" }}>Week 8</h2>
+            <h2 style={{ textAlign: "center" }}>Week 9</h2>
           </header>
           <h3 style={{ textAlign: "center", color: "#ff7eb6" }}>
-            Welcome Back Challengers!{" "}
+            How much water weight did milton help you shed this week?{" "}
           </h3>
           <div style={{ position: "relative", width: "100%" }}>
             <hr />
@@ -121,7 +121,7 @@ function App() {
           </p>
           <h4>How often do I report my weight?</h4>
           <p style={{ marginTop: "1rem" }}>
-            You will report your weight weekly every Sunday. Once all weights
+            You will report your weight weekly every Saturday. Once all weights
             have been reported the leaderboard will be updated and you will
             receive a notification.
           </p>
